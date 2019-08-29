@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FluxoDeCaixa", "FluxoDeCaixa\FluxoDeCaixa.vbproj", "{8B63E784-EB0D-4AAA-A3C9-9B71FE055F7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B63E784-EB0D-4AAA-A3C9-9B71FE055F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B63E784-EB0D-4AAA-A3C9-9B71FE055F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B63E784-EB0D-4AAA-A3C9-9B71FE055F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B63E784-EB0D-4AAA-A3C9-9B71FE055F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9953638-68DD-4BE6-AB1F-C791A9F6B521}
+	EndGlobalSection
+EndGlobal
