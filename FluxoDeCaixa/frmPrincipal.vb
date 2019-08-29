@@ -19,4 +19,10 @@
         frmFiltroData.MdiParent = Me
         frmFiltroData.Show()
     End Sub
+
+    Private Sub SobreToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SobreToolStripMenuItem.Click
+
+        MessageBox.Show("Fluxo de Caixa 1.0", "Sobre")
+
+    End Sub
 End Class

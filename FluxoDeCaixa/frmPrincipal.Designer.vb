@@ -25,14 +25,15 @@ Partial Class frmPrincipal
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ArquivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FluxoDeCaixaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SairToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FiltroPorDataToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SairToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SobreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArquivoToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArquivoToolStripMenuItem, Me.SobreToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1184, 24)
@@ -52,17 +53,23 @@ Partial Class frmPrincipal
         Me.FluxoDeCaixaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.FluxoDeCaixaToolStripMenuItem.Text = "Fluxo de Caixa"
         '
+        'FiltroPorDataToolStripMenuItem
+        '
+        Me.FiltroPorDataToolStripMenuItem.Name = "FiltroPorDataToolStripMenuItem"
+        Me.FiltroPorDataToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.FiltroPorDataToolStripMenuItem.Text = "Filtro por Data"
+        '
         'SairToolStripMenuItem
         '
         Me.SairToolStripMenuItem.Name = "SairToolStripMenuItem"
         Me.SairToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SairToolStripMenuItem.Text = "Sair"
         '
-        'FiltroPorDataToolStripMenuItem
+        'SobreToolStripMenuItem
         '
-        Me.FiltroPorDataToolStripMenuItem.Name = "FiltroPorDataToolStripMenuItem"
-        Me.FiltroPorDataToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.FiltroPorDataToolStripMenuItem.Text = "Filtro por Data"
+        Me.SobreToolStripMenuItem.Name = "SobreToolStripMenuItem"
+        Me.SobreToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
+        Me.SobreToolStripMenuItem.Text = "Sobre"
         '
         'frmPrincipal
         '
@@ -87,4 +94,5 @@ Partial Class frmPrincipal
     Friend WithEvents FluxoDeCaixaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SairToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FiltroPorDataToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SobreToolStripMenuItem As ToolStripMenuItem
 End Class
